@@ -1,0 +1,32 @@
+
+.container{
+    border: 1px solid blueviolet;
+    width: 800px;
+    height: 850px;
+    display: flex;
+   flex-wrap: wrap;
+}
+
+
+.container > * {
+    border: 1px solid rgb(236, 205, 47);
+    height: 50px;
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+div[class^="Line"] div[class^="Row"] {
+    border: 1px solid rgb(212, 30, 30);
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.active{
+    background-color: blanchedalmond;
+}
