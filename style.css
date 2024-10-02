@@ -1,17 +1,21 @@
+.mainDiv{
+    border: 1px solid blueviolet;
+    width: 600px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+   flex-wrap: wrap;
+
+
+}
 
 .container{
-    border: 1px solid blueviolet;
-    width: 800px;
-    height: 850px;
     display: grid;
-   flex-wrap: wrap;
+    flex-wrap: wrap;
 }
 
 
 .container > * {
-    border: 1px solid rgb(236, 205, 47);
-    height: 50px;
-    width: 800px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,7 +23,7 @@
 
 
 div[class^="Line"] div[class^="Row"] {
-    border: 1px solid rgb(212, 30, 30);
+    border: 1px solid rgb(32, 77, 163);
     height: 50px;
     width: 50px;
     display: flex;

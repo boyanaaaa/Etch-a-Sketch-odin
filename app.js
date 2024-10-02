@@ -1,4 +1,6 @@
+const mainDiv = document.querySelector(".mainDiv");
 const mainContainer = document.querySelector(".container");
+
 
 const userInput = document.createElement('input');
 userInput.classList.add('userInput');
@@ -21,9 +23,9 @@ function createGrid(inputNumber) {
     mainContainer.innerHTML = '';
 
 
-    mainContainer.appendChild(userInput);
-    mainContainer.appendChild(submitBtn);
-    mainContainer.appendChild(resetBtn);
+    mainDiv.appendChild(userInput);
+    mainDiv.appendChild(submitBtn);
+    mainDiv.appendChild(resetBtn);
 
    
     for (let i = 0; i < inputNumber; i++) {
