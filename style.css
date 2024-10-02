@@ -3,7 +3,7 @@
     border: 1px solid blueviolet;
     width: 800px;
     height: 850px;
-    display: flex;
+    display: grid;
    flex-wrap: wrap;
 }
 
@@ -30,3 +30,5 @@ div[class^="Line"] div[class^="Row"] {
 .active{
     background-color: blanchedalmond;
 }
+
+
